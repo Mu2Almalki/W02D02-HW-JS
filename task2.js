@@ -18,13 +18,13 @@ let count = 0;
  }
 
 // //  -----------------------------------
-document.addEventListener("load", num)
 function num () {
     for (let i = 0; i <= 25 ; i++) {
-      let option = document.createElement("OPTION");  
-        option.innerHTML = i; 
+        
         let select = document.getElementById("elements")
+        let option = document.createElement("OPTION");
+        option.innerHTML = i;
         select.appendChild(option);   
         
     }
-}
+}num();
